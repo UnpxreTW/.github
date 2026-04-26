@@ -1,0 +1,17 @@
+name: 詢問 · Question
+description: 使用上的問題 / Ask a question about usage
+title: "[Question] "
+labels: ["question"]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: 問題 · Question
+      description: 描述你的問題 / Describe your question
+    validations:
+      required: true
+  - type: textarea
+    id: references
+    attributes:
+      label: 已查過的資源 · References Already Checked
+      description: 列出你已經看過的文檔、issues、其他來源 / List docs, issues, or sources you've already checked

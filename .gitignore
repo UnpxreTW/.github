@@ -1,0 +1,21 @@
+# ==== OS files ====
+
+# macOS
+.DS_Store
+._*
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# ==== Environment / secrets (safety net) ====
+
+.env
+.env.*
+*.pem
+*.key
+secrets/
+credentials/

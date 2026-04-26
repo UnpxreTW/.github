@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 安全性弱點 · Security Issue
+    url: https://github.com/UnpxreTW/.github/blob/main/SECURITY.md
+    about: 請依 SECURITY.md 寄信至 mail@unpxre.me / Follow SECURITY.md to email mail@unpxre.me

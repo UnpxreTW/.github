@@ -1,0 +1,49 @@
+name: Bug 回報 · Bug Report
+description: 回報程式錯誤 / Report a bug
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: 問題描述 · Description
+      description: 清楚描述發生了什麼問題 / Clearly describe what happened
+      placeholder: 我預期 X，但實際看到 Y / I expected X but got Y
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 重現步驟 · Steps to Reproduce
+      description: 列出可重現此 bug 的步驟 / Steps to reproduce
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+  - type: textarea
+    id: expected
+    attributes:
+      label: 預期行為 · Expected Behavior
+      description: 你預期應該看到什麼 / What did you expect to happen?
+  - type: dropdown
+    id: platform
+    attributes:
+      label: 環境 · Environment
+      description: 此問題發生在哪個平台 / Which platform?
+      options:
+        - macOS
+        - iOS
+        - iPadOS
+        - watchOS
+        - tvOS
+        - Linux
+        - Windows
+        - CLI / Terminal
+        - Web
+        - Other
+  - type: textarea
+    id: version
+    attributes:
+      label: 版本資訊 · Version Info
+      description: OS / app / package 版本 / OS, app, or package version
+      placeholder: macOS 26.4.1, MyApp 1.2.0
